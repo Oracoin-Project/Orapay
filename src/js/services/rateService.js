@@ -22,7 +22,7 @@ var RateService = function(opts) {
   self.UNAVAILABLE_ERROR = 'Service is not available - check for service.isAvailable() or use service.whenAvailable()';
   self.UNSUPPORTED_CURRENCY_ERROR = 'Currency not supported';
 
-  self._url = opts.url || 'https://rates.mmitech.info/index.php?api=grs_rates';
+  self._url = opts.url || 'https://rates.oracoin.com/index.php?api=ora_rates';
 
   self._isAvailable = false;
   self._rates = {};
