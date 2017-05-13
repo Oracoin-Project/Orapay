@@ -34,7 +34,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://gws.oracoin.com/bws/api',
+        baseUrl: opts.bwsurl || 'https://bws.oracoin.com/bws/api',
         verbose: opts.verbose,
         transports: ['polling'],
       });
