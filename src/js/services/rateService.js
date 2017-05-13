@@ -46,7 +46,7 @@ RateService.prototype._fetchCurrencies = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60; //every 5 minutes
-  var rateServiceUrl = 'https://rates.mmitech.info/index.php?api=grs_rates';
+  var rateServiceUrl = 'https://rates.oracoin.com/index.php?api=ora_rates';
 
   var retrieve = function() {
     //log.info('Fetching exchange rates');
